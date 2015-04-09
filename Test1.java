@@ -1,8 +1,8 @@
 package wwwww;
 /**
- * ��һ�� helloWord
+ * µÚÒ»Ìâ helloWord
  * 
- * @author ��ٻٻ
+ * @author张萍萍
  *
  */
 public class Test1 {
