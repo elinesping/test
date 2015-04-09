@@ -1,23 +1,23 @@
 package wwwww;
 /**
- *µÚ¶şÌâ
- *¼ÆËãÒ»¸öÊı×éÖĞ×ÓÊı×éÖ®ºÍµÄ×î´óÖµ
- * @author ÓÚº£·É
+ *ç¬¬äºŒé¢˜
+ *è®¡ç®—ä¸€ä¸ªæ•°ç»„ä¸­å­æ•°ç»„ä¹‹å’Œçš„æœ€å¤§å€¼
+ * @author å¼ èè
  *
  */
 public class Test2 {
-	static int[] arr = {5,-3,2,4};// ĞèÒªÇóµÄÊı×é
-	static int maxIndex = arr.length - 1;// Êı×éµÄ×î´óÏÂ±ê
+	static int[] arr = {5,-3,2,4};// éœ€è¦æ±‚çš„æ•°ç»„
+	static int maxIndex = arr.length - 1;// æ•°ç»„çš„æœ€å¤§ä¸‹æ ‡
 
 	public static void main(String[] args) {
 		findMaxArr2();
 		System.out.println("\n-------------");
 	}
 
-	// 2.¶ş²ãforÑ­»·Çó½â
+	// 2.äºŒå±‚forå¾ªç¯æ±‚è§£
 	static void findMaxArr2() {
-		int max = arr[0];// ×î´óÖµ
-		int sum;// ÇóºÍ
+		int max = arr[0];// æœ€å¤§å€¼
+		int sum;// æ±‚å’Œ
 		int startIndex = 0;
 		int endIndex = 0;
 		for (int i = 0; i <= maxIndex; i++) {
@@ -31,11 +31,11 @@ public class Test2 {
 				}
 			}
 		}
-		System.out.println("×î´óÖµÎª£º" + max);
+		System.out.println("æœ€å¤§å€¼ä¸ºï¼š" + max);
 		printArr(startIndex, endIndex);
 	}
 
-	// ¸ù¾İÏÂ±ê¿ªÊ¼½áÊøÖµ£¬´òÓ¡Êı×é
+	// æ ¹æ®ä¸‹æ ‡å¼€å§‹ç»“æŸå€¼ï¼Œæ‰“å°æ•°ç»„
 	static void printArr(int startIndex, int endIndex) {
 		for (int i = startIndex; i <= endIndex; i++) {
 			System.out.print(arr[i] + " ");
